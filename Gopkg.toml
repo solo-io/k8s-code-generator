@@ -2,6 +2,13 @@
   go-tests = true
   unused-packages = true
 
+  # The following per-project options prevent dep from pruning the files it thinks are unused inside these dependencies.
+
+  # This one is needed to get hack/boilerplate.go.txt
+  [[prune.project]]
+      name = "k8s.io/code-generator"
+      unused-packages = false
+
 [[constraint]]
   name = "github.com/spf13/pflag"
   version = "1.0.3"

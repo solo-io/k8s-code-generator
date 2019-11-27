@@ -229,7 +229,7 @@
   version = "v2.2.4"
 
 [[projects]]
-  digest = "1:31f549ed86d7c96122b83313ec8f7769154fa7bdd2e56ff6a911b7bfc05cf6e3"
+  digest = "1:a6aa236db5d07dff9ea1160ef316b17e131d2b1b2ad7d177431206bf389d241e"
   name = "k8s.io/code-generator"
   packages = [
     "cmd/client-gen",
@@ -265,7 +265,7 @@
     "pkg/util",
     "third_party/forked/golang/reflect",
   ]
-  pruneopts = "UT"
+  pruneopts = "T"
   revision = "8e001e5d18949be7e823ccb9cfe9b60026e7bda0"
   version = "kubernetes-1.16.2"
 
